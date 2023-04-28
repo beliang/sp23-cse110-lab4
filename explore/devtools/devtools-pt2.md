@@ -1,0 +1,2 @@
+1. The bug was that we are trying to add numbers that are of the type String. This would make result just be a concatenation of the two strings which just appends num2 to the end of num1. So 2 + 3 would be '23'.  
+2. I would convert them to a number to add them numerically with the Number() function
