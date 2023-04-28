@@ -8,7 +8,7 @@ let statistics = {
 }
 
 for(let p in statistics) {
-    if(p.startsWith('r') || statistics.p % 2 == 1) {
+    if(p.startsWith('r') || (statistics[p] % 2) == 1) {
         console.log(`${statistics[p]}`);
     }
 }
